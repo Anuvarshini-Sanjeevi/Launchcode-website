@@ -1,5 +1,4 @@
-
- * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -166,7 +165,8 @@ a {
     cursor: pointer;
   }
   
-  .content nav form .form-input button .bx-search {
+  .content nav form .form-input button .bx-
+   {
     color: #ae4040;
   }
 
@@ -265,9 +265,9 @@ main {
     -webkit-animation-duration: 3s;
     -moz-animation-name: slidein-left;
     -webkit-animation-name: slidein-left;
-    font-style:italics;
+    font-style:italic;
   }
-  
+
   @-moz-keyframes slidein-left {
     from {
       margin-left: 100%;
@@ -277,7 +277,7 @@ main {
       margin-left: 0%;
       width: 100%;
     }
-  }
+  } 
   
   @-webkit-keyframes slidein-left {
     from {
@@ -424,9 +424,9 @@ h5{
       display: none;
     }
   
-    .content nav form .form-input button {
+     .content nav form .form-input button {
       background-color:#aaaaaa;
-    }
+    } 
   
     .content nav form .form-input input {
       width: 100%;
@@ -461,4 +461,4 @@ h5{
     main .bottom_data .reminders .task_list {
       min-width: 50px;
     }
-}
+} 
